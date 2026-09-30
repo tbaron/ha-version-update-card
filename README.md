@@ -2,7 +2,7 @@
 
 A custom Home Assistant dashboard card for displaying version status, update availability, and release information.
 
-![Example card showing an available Home Assistant update](docs/example-card.png)
+![Example card showing an available Home Assistant update](https://raw.githubusercontent.com/tbaron/ha-version-update-card/main/docs/example-card.png)
 
 When an update is available, the card displays the installed and latest versions along with release information. When Home Assistant is up to date, it displays the installed version and release date in a compact view.
 
