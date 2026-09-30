@@ -1,4 +1,5 @@
 {
   "name": "Version Update Card",
-  "filename": "version-update-card.js"
+  "filename": "version-update-card.js",
+  "homeassistant": "2025.10.0"
 }
