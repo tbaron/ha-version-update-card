@@ -38,26 +38,22 @@ If your entity IDs differ, select the corresponding entities in the card configu
 
 ### HACS
 
-1. Open HACS.
-2. Add this repository as a custom **Dashboard** repository.
-3. Install **HA Version Update Card**.
-4. Reload Home Assistant.
+1. Click to automatically add this repository to HACS:
 
-### Manual
+    [![Open HACS repository on My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=tbaron&repository=ha-version-update-card&category=plugin)
 
-Copy `version-update-card.js` to:
+    - Alternatively, manually add `https://github.com/tbaron/ha-version-update-card` to HACS as a custom **Dashboard** repository.
 
-```text
-/config/www/version-update-card.js
-```
+3. Download **Version Update Card**.
+4. Refresh your browser.
 
-Add it as a dashboard resource:
+### Manual installation
 
-```text
-/local/version-update-card.js
-```
+Alternative if not using HACS.
 
-with resource type **JavaScript Module**.
+1. Download `version-update-card.js` from the latest release to `/config/www/`.
+2. Add `/local/version-update-card.js` as a **JavaScript Module** under **Settings → Dashboards → Resources**.
+3. Refresh your browser.
 
 ## Usage
 
