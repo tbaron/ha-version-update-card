@@ -224,5 +224,6 @@ window.customCards.push({
     type: "version-update-card",
     name: "Version Update Card",
     description: "Notifies you of available Home Assistant updates with version and release information.",
+    documentationURL: "https://github.com/tbaron/ha-version-update-card",
     preview: true,
 });
