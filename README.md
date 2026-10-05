@@ -51,7 +51,7 @@ If your entity IDs differ, select the corresponding entities in the card configu
 
 Alternative if not using HACS.
 
-1. Download `version-update-card.js` from the latest release to `/config/www/`.
+1. Download `version-update-card.js` from the [latest release](https://github.com/tbaron/ha-version-update-card/releases/latest) to `/config/www/`.
 2. Add `/local/version-update-card.js` as a **JavaScript Module** under **Settings → Dashboards → Resources**.
 3. Refresh your browser.
 
